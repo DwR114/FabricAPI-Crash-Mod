@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricapicrash",
+  "version": "1.0.0",
+  "name": "FabricAPI-Crash",
+  "description": "Detects Fabric API and crashes the game.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "icon": "assets/fabricapicrash/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.fabricapicrash.FabricApiCrashMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1"
+  }
+}
